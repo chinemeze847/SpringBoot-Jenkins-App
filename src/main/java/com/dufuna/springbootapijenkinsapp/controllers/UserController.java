@@ -12,6 +12,6 @@ public class UserController {
 	@GetMapping("/")
 	public ResponseEntity<String> getAllUsers()
 	{
-		return ResponseEntity.ok("ThankGod I made it");
+		return ResponseEntity.ok("I am the Java Lord !!!!");
 	}
 }
