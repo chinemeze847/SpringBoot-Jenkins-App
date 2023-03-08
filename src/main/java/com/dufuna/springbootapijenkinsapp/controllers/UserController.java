@@ -14,4 +14,9 @@ public class UserController {
 	{
 		return ResponseEntity.ok("I am the Java Lord !!!!");
 	}
+	@GetMapping("/health-check")
+	public ResponseEntity<String> checkHealth()
+	{
+		return ResponseEntity.ok("I am healthy !!!!");
+	}
 }
